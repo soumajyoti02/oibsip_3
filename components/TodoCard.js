@@ -9,7 +9,7 @@ const TodoCard = ({ task, onMarkAsDone }) => {
         <div className="w-[280px] mx-5 mt-5">
             <div className="bg-gradient-to-tr from-emerald-600 to-emerald-800 rounded-lg overflow-hidden shadow-md">
                 <div className="p-4">
-                    <h1 className="text-lg font-semibold text-gray-800">{task}</h1>
+                    <h1 className="text-lg font-semibold text-gray-800 text-white">{task}</h1>
                 </div>
                 <div className="px-4 pb-4">
                     <button
